@@ -1,5 +1,5 @@
 ﻿<?php
-$fuckingproprietario = 556562103; // id ancor + important lol
+$fuckingproprietario = 416613587; // id ancor + important lol
 $idfather = 93372553; // id di botfather
 $chiunque = ['556562103']; // porcodio
 $spambot = 178220800; // id spambot
@@ -7,7 +7,7 @@ if(!isset($msg)) $msg = NULL;
 $forward = rand(10,12);
 
 if(strpos(" ".$msg, "/start") and in_array($userID, $chiunque)){
-    sm($chatID, "<b>Userbot online!</b>");
+    sm($chatID, "<b>I'm here!!</b>");
 }
 
 
